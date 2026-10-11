@@ -1,0 +1,13 @@
+# 빌드 산출물 (소스로부터 재생성 가능하므로 저장소에 포함하지 않음)
+*.exe
+*.obj
+*.o
+*.pdb
+
+# 프로그램 실행 시 생성되는 사용자 데이터 폴더
+PC-Guardian/
+Logs/
+Snapshots/
+Evidence/
+Quarantine/
+State/
