@@ -590,7 +590,7 @@ bool RunDefenderScan(int scanType) { // 1=빠른검사, 2=전체검사
 void SeedDefaults() {
     if (g_hashBlacklist.empty()) {
         // EICAR 표준 테스트 파일의 SHA-256 (전세계 백신이 동작 확인용으로 쓰는 공인 테스트 샘플)
-        g_hashBlacklist.push_back(L"275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0");
+        g_hashBlacklist.push_back(L"275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f");
     }
     if (g_patternList.empty()) {
         g_patternList = {
